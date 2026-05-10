@@ -2,7 +2,7 @@ Election Data Analysis & Win Prediction App
 ⚠️ Important Disclaimer
 This project is strictly for educational and portfolio purposes.
 
-Non-Partisan: This application does not reflect the personal political opinions of the author.
+Non-Partisan: This application does not reflect the personal political opinions of the author .
 
 No Political Affiliation: This project is not funded, endorsed, or supported by any political party, candidate, or organization.
 
