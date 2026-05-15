@@ -1,4 +1,5 @@
 python
+numpy
 pandas
 plotly
 scikit-learn
