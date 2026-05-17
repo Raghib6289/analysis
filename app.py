@@ -14,7 +14,7 @@ app.title = "Govt of WB - Exit Poll Data"
 # Suppress dash callback exceptions if needed
 app.config.suppress_callback_exceptions = True
 
-# Colors mapping
+# Colours mapping
 party_colors = {
     'AITC': '#20C646',
     'BJP': '#FF9933',
