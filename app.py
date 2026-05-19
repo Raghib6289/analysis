@@ -24,7 +24,7 @@ party_colors = {
 }
 parties = [p for p in df['Party'].unique() if p != 'Others']
 
-# 3. Layout (Amateur gov style)
+# 3. Layout (Amateur government style)
 app.layout = html.Div(style={'fontFamily': 'Arial, sans-serif', 'padding': '20px', 'backgroundColor': '#FFFFFF', 'color': '#000000'}, children=[
     html.Div(style={'borderBottom': '3px solid #000080', 'marginBottom': '20px'}, children=[
         html.H1("Election Data Analysis", style={'color': '#000080', 'margin': '0'}),
