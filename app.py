@@ -37,7 +37,7 @@ app.layout = html.Div(style={'fontFamily': 'Arial, sans-serif', 'padding': '20px
             html.Td(style={'width': '30%', 'verticalAlign': 'top', 'borderRight': '2px solid #000000', 'paddingRight': '20px'}, children=[
                 html.Div(style={'border': '1px solid #000000', 'padding': '15px', 'backgroundColor': '#F0F0F0'}, children=[
                     html.H3("Vote Share Adjustments", style={'marginTop': '0'}),
-                    html.P(html.I("Enter manual swing offsets based on field reports:")),
+                    html.P(html.I("Enter manual swing offsets based on field reports :")),
                     
                     html.Div([
                         html.Div([
