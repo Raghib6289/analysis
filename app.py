@@ -5,10 +5,10 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.express as px
 
-# 1. Load Data
+# 1 Load Data
 df = pd.read_csv("wb_election_data.csv")
 
-# 2. Setup App (Basic)
+# 2 Setup App (Basic)
 app = dash.Dash(__name__)
 app.title = "Govt of WB - Exit Poll Data"
 # Suppress dash callback exceptions if needed
