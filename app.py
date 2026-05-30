@@ -19,7 +19,7 @@ party_colors = {
     'AITC': '#20C646',
     'BJP': '#FF9933',
     'CPI(M)': '#DE1100',
-    'INC': '#19AAED',
+    'INC': '#19AAED', 
     'Others': '#808080'
 }
 parties = [p for p in df['Party'].unique() if p != 'Others']
