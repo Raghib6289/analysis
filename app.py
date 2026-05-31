@@ -5,7 +5,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.express as px
 
-# 1 Load Datas
+# 1 Load Data
 df = pd.read_csv("wb_election_data.csv")
 
 # 2 Setup App (Basic)
