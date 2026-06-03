@@ -113,7 +113,7 @@ def update_dashboard(*swings):
         pred_seats = model_seats.predict([[2026]])[0]
         pred_votes = model_votes.predict([[2026]])[0]
         
-        # Apply swing if provided
+        # Apply swing if provided 
         if party in swing_factors:
             swing = swing_factors[party]
             pred_votes += swing
