@@ -33,7 +33,7 @@ app.layout = html.Div(style={'fontFamily': 'Arial, sans-serif', 'padding': '20px
     
     html.Table(style={'width': '100%', 'borderCollapse': 'collapse'}, children=[
         html.Tr([
-            # Left Sidebar
+            # Left Sidebar 
             html.Td(style={'width': '30%', 'verticalAlign': 'top', 'borderRight': '2px solid #000000', 'paddingRight': '20px'}, children=[
                 html.Div(style={'border': '1px solid #000000', 'padding': '15px', 'backgroundColor': '#F0F0F0'}, children=[
                     html.H3("Vote Share Adjustments", style={'marginTop': '0'}),
