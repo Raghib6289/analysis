@@ -46,7 +46,7 @@ app.layout = html.Div(style={'fontFamily': 'Arial, sans-serif', 'padding': '20px
                                 id=f'swing-{p}',
                                 min=-40, max=40, step=0.5, value=0,
                                 marks={i: str(i) for i in range(-40, 41, 10)}
-                            )
+                         )
                         ], style={'marginBottom': '30px'}) for p in parties
                     ])
                 ]),
