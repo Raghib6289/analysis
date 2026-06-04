@@ -15,7 +15,7 @@ app.title = "Govt of WB - Exit Poll Data"
 app.config.suppress_callback_exceptions = True
 
 # Colours map-ping
-party_colors = {
+party_colors = { 
     'AITC': '#20C646',
     'BJP': '#FF9933',
     'CPI(M)': '#DE1100',
