@@ -57,7 +57,6 @@ app.layout = html.Div(style={'fontFamily': 'Arial, sans-serif', 'padding': '20px
                     html.P([html.B("Status: "), html.Span(id="winner-status")])
                 ])
             ]),
-            
             # Right   Content
             html.Td(style={'width': '70%', 'verticalAlign': 'top', 'paddingLeft': '20px'}, children=[
                 html.H3("Projected 2026 Outcome"),
