@@ -30,7 +30,6 @@ app.layout = html.Div(style={'fontFamily': 'Arial, sans-serif', 'padding': '20px
         html.H1("Election Data Analysis", style={'color': '#000080', 'margin': '0'}),
         html.H2("West Bengal Assembly Election Predictor", style={'color': '#000000', 'marginTop': '5px'})
     ]),
-    
     html.Table(style={'width': '100%', 'borderCollapse': 'collapse'}, children=[
         html.Tr([
             # Left Sidebar 
